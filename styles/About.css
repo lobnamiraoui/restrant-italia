@@ -1,3 +1,35 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+div {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+
+a,
+li{
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    padding-right: 20px;
+    color: #FFFFFF;
+}
+a:viseted{
+    color:red
+}
+
+
+
+
+
+
 footer p {
     text-align: center;
     padding: 2px ;
@@ -5,4 +37,28 @@ footer p {
     color: #FFFFFF;
     margin-top: 2px;
     font-size: 0.9rem;
+}
+
+/* Fixed position */
+.fixed {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    gap: 300px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+
 }
