@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+}
+div {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+
+a,
+li{
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    padding-right: 20px;
+}
+a:viseted{
+    color:red
+}
+footer p {
+    text-align: center;
+    padding: 2px ;
+    background-color: #C96868;
+    color: #FFFFFF;
+    margin-top: 2px;
+    font-size: 0.9rem;
+}
