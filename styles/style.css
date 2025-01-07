@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    margin: 20px;
+    margin: 0;
 }
 div {
     margin: 10px;
@@ -17,6 +17,7 @@ li{
     display: inline;
     text-align: center;
     padding-right: 20px;
+    color: #FFFFFF;
 }
 a:viseted{
     color:red
@@ -28,4 +29,40 @@ footer p {
     color: #FFFFFF;
     margin-top: 2px;
     font-size: 0.9rem;
+}
+/* Fixed position */
+.fixed {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    gap: 300px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+
+}
+.header-paragraph{
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 40%;
+    background-color: transparent;
+    border: none;
+    align-self: center;
+
+}
+.header-paragraph p {
+    width: fit-content;
+    text-align: justify;
 }
