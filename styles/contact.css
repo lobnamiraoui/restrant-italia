@@ -1,0 +1,81 @@
+body{
+   background-image: url('../assets/contact.jpg');
+   background-size: cover;
+
+}
+
+h1{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+     font-weight: 300px;
+     font-style: oblique;
+     font-size: xx-large;
+     
+}
+p{
+    align-items: center;
+    font-style: italic;
+    
+   
+}
+
+label{
+    color:white;
+    text-align: center;
+    font-weight: 200;
+    font-style: inherit;
+    font-size: x-large;
+
+}
+input[type="text"],
+input[type="password"] ,
+textarea
+
+ {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    
+}
+button {
+   background-color: #ed0f0f;
+   color: white;
+   border: 2px solid #ddd;
+   padding: 10px 20px;
+   border-radius: 10px;
+   font-size: 16px;
+}
+button:hover {
+   background-color:yellow;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+    
+}
+input {
+    width: 100%;
+  }
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

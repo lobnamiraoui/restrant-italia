@@ -1,60 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <h1>Contactez-nous</h1>
+        <div class="inputs">
+          <label>Name:</label>
 
-        
-        
-            <form>
-      
-              <label>Name:</label>
-        
-              <input type="text" name="first name" placeholder="Type your name here" />
-        <br>
-        <br>
-        <br>
-              
-        
-              <label>Email:</label>
-        
-              <input type="text" name="Email" placeholder="Type your email" />
-        
-        <br>
-        <br>
-        <br>
-              <label>Num phone:</label>
-        
-              <input type="number" name="number" value="23123456" />
-    
-      <br>
-      <br>
-      <br>
-      <label>message:</label>
-      <textarea name="message" cols="30" rows="5">
+          <input
+            type="text"
+            name="first name"
+            placeholder="Type your name here"
+          />
+        </div>
+        <div class="inputs">
+          <label>Email:</label>
 
-    </textarea>
-    <br>
-      <br>
-      <br>
-    
-    <!-- This button will submit the form, causing the page to redirect -->
+          <input type="text" name="Email" placeholder="Type your email" />
+        </div>
+        <div class="inputs">
+          <label>Num phone:</label>
 
-    <button type="submit">Send message</button>    
-    
-                
-          
-        
-      
-          
-      
-      
-         
-        
-    
-    
-</body>
+          <input name="number"  />
+        </div>
+
+        <div class="inputs">
+          <label>message:</label>
+          <textarea name="message" cols="30" rows="5"> </textarea>
+        </div>
+
+        <!-- This button will submit the form, causing the page to redirect -->
+
+        <button type="submit">Send message</button>
+      </form>
+    </div>
+  </body>
 </html>

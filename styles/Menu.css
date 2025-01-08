@@ -3,14 +3,9 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     margin: 0;
+    background-color: #BC7C7C;
 }
-div {
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #000;
-    background-color: #F0F0F0;
-    text-align: center;
-}
+
 
 
 a,
@@ -20,7 +15,7 @@ li{
     text-align: center;
     padding-right: 20px;
     color:blanchedalmond;
-    background-color: #000;
+    
 }
 a:viseted{
     color:red
@@ -33,18 +28,22 @@ footer p {
     margin-top: 2px;
     font-size: 0.9rem;
 }
+.header{
+    position: relative;
+    height: 15%;
+    width: 100%;
+}
 /* Fixed position */
 .fixed {
     position: fixed;
-    top: 10px;
-    right: 10px;
     z-index: 1;
-    height: 15%;
     width: 100%;
     display: flex;
     flex-direction: column;
     border: none;
     gap: 300px;
+    padding: 20px; 
+   
 }
 .nav{
     display: flex;
@@ -53,24 +52,23 @@ footer p {
     align-items: center;
     background-color: black;
     border: none;
+    height: 100%;
+    width: 100%;
 
 }
-grid-container{
-    display: grid;
-    border: none;
-    grid-template-rows: 350px 350px 350px 350px;
-    grid-template-columns: 400px 400px 400px 400px;
 
+.grid-container{
+   padding: 100px;
+   display: grid;
+   border: none;
+   gap: 20px;
+   grid-template: 1fr/1fr 1fr;
+   
+   
 }
-/* Absolute position */
-.absolute-container {
-    position: relative; /* Acts as the containing block */
-    height: 150px;
-    border: 2px dashed #000;
-}
-.absolute {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: #FFCCCB;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }

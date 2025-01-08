@@ -27,16 +27,20 @@ a:viseted{
 
 
 
-
-
+footer{
+   
+    background-color: #C96868;
+}
 
 footer p {
     text-align: center;
     padding: 2px ;
-    background-color: #C96868;
+    
     color: #FFFFFF;
     margin-top: 2px;
     font-size: 0.9rem;
+    justify-content: center;
+
 }
 
 /* Fixed position */
@@ -61,4 +65,22 @@ footer p {
     background-color: transparent;
     border: none;
 
+}
+
+    h1{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        font-style: italic;
+        color: #C96868;
+    
+    }
+    
+p{
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
 }
