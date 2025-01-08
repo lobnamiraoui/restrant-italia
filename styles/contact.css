@@ -1,6 +1,7 @@
 body{
    background-image: url('../assets/contact.jpg');
    background-size: cover;
+   font-family: "Poppins", serif;
 
 }
 
@@ -8,7 +9,7 @@ h1{
     color: white;
     padding: 10px;
     text-align: center;
-    width: 20%;
+    width: fit-content;
      font-weight: 300px;
      font-style: oblique;
      font-size: xx-large;
