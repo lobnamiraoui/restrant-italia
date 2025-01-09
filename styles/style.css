@@ -22,13 +22,15 @@ li{
 a:viseted{
     color:red
 }
-footer p {
-    text-align: center;
-    padding: 2px ;
-    background-color: #C96868;
-    color: #FFFFFF;
-    margin-top: 3px;
-    font-size: 0.9rem;
+
+    footer  {
+        text-align: center;
+        padding: 2px ;
+        background-color: #C96868;
+        color: #FFFFFF;
+        margin-top: 3px;
+        font-size: 0.9rem;
+        width: 100%;
 }
 /* Fixed position */
 .fixed {

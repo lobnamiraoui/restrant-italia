@@ -1,5 +1,6 @@
 
 body {
+ 
     font-family: "Poppins", serif;
     line-height: 1.5;
     margin: 0;
@@ -20,13 +21,15 @@ li{
 a:viseted{
     color:red
 }
-footer p {
+footer  {
     text-align: center;
     padding: 2px ;
     background-color: #C96868;
     color: #FFFFFF;
     margin-top: 3px;
     font-size: 0.9rem;
+    width: 100%;
+    
 }
 .header{
     position: relative;
@@ -59,6 +62,7 @@ footer p {
 
 .grid-container{
    padding: 100px;
+   padding-top: 140px;
    display: grid;
    border: none;
    gap: 20px;
@@ -80,6 +84,10 @@ footer p {
     color: #000;
     font-size:fit-content;
     border: 1px solid rgba(219,210,219,1);
+   padding: 20px;
    
-    box-shadow: 10px 9px 5px -7px rgba(219,210,219,1);
+   box-shadow: 10px 9px 5px -7px rgba(219,210,219,1);
+}
+.menu-item p {
+    align-self: flex-start;
 }

@@ -38,15 +38,15 @@ a:viseted{
     border: none;
     gap: 300px;
 }
-footer p {
+footer  {
     text-align: center;
     padding: 2px ;
     background-color: #C96868;
     color: #FFFFFF;
     margin-top: 3px;
     font-size: 0.9rem;
-}
-
+    width: 100%;
+  }
 .nav{
     display: flex;
     flex-direction: row;
