@@ -51,9 +51,7 @@ button {
    border-radius: 10px;
    font-size: 16px;
 }
-button:hover {
-   background-color:yellow;
-}
+
 .form{
     display: flex;
     flex-direction: column;
@@ -112,7 +110,7 @@ li{
     display: inline;
     text-align: center;
     padding-right: 20px;
-    color: #FFFFFF;
+    color:white;
 }
 body {
     font-family: "Poppins", serif;

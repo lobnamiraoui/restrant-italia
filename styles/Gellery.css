@@ -38,15 +38,53 @@ a:viseted{
     border: none;
     gap: 300px;
 }
-footer  {
-    text-align: center;
-    padding: 2px ;
+.timing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #C96868;
-    color: #FFFFFF;
-    margin-top: 3px;
-    font-size: 0.9rem;
-    width: 100%;
-  }
+
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border:none;
+    background-color: #C96868;
+    color:white;
+}
+.image{
+    background-color: #C96868;
+    border:none;
+}
+.footter-container{
+    display:flex;
+    justify-content: center;
+    flex-direction: row ;
+    align-items: start;
+    text-align: center;
+    border:none;
+    color: white;
+    background-color: #C96868;
+}
+    footer  {
+        text-align: center;
+        padding: 2px ;
+        background-color: #C96868;
+        color: #FFFFFF;
+        margin-top: 3px;
+        font-size: 0.9rem;
+        width: 100%;
+        border:none;
+}
 .nav{
     display: flex;
     flex-direction: row;
