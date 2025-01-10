@@ -18,54 +18,7 @@ li{
     color:white;
    
 }
-
-.timing{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #C96868;
-
-}
-
-.footer-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    border:none;
-    background-color: #C96868;
-    color:white;
-}
-.image{
-    background-color: #C96868;
-    border:none;
-}
-.footter-container{
-    display:flex;
-    justify-content: center;
-    flex-direction: row ;
-    align-items: start;
-    text-align: center;
-    border:none;
-    color: white;
-    background-color: #C96868;
-}
-    footer  {
-        text-align: center;
-        padding: 2px ;
-        background-color: #C96868;
-        color: #FFFFFF;
-        margin-top: 3px;
-        font-size: 0.9rem;
-        width: 100%;
-        border:none;
-}
+   
 /* Fixed position */
 .fixed {
     position: fixed;
@@ -121,3 +74,72 @@ li{
 .menu-item p {
     align-self: flex-start;
 }
+.newsletter-form{
+    
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+}
+.timing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #C96868;
+
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    border:none;
+    background-color: #C96868;
+    color:white;
+    padding: 20px;
+}
+.image{
+    background-color: #C96868;
+    border:none;
+}
+ footer  {
+        text-align: center;
+        padding: 2px ;
+        background-color: #C96868;
+        color: #FFFFFF;
+        margin-top: 3px;
+        font-size: 0.9rem;
+        width: 100%;
+        border:none;
+}
+
+footer input[type=email] {
+ padding: 10px;
+ font-size: 16px;
+ width: 200px;
+ border: none;
+ border-radius: 5px;
+
+}
+footer button {
+    width: fit-content;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #663232;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #7d1c1c;
+  }
+  
